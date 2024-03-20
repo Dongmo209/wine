@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="stylesheet" href="css/stylee.css">
+    <title>Wine Shop</title>
+</head>
+<body>
+    
+    <header class="header blur-header" id="header">
+        <nav class="nav container">
+            <a href="#new" class="nav__logo">Wine Shop
+                <i class='bx bxs-user' ></i>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#favorite" class="nav__link">Wines</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#visit" class="nav__link">Location</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+
+                <img src="components/assets/bottle-wine-glasses-corkscrew-set-evening" alt="" class="nav__img-1">
+                <img src="components/assets/bottle-wine-glasses-corkscrew-set-evening" alt="" class="nav__img-2">
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+        </nav>   
+    </header>
+
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <img src="components/assets/bouteille-vin-rouge-se-trouve-cote-du-verre-raisins-murs.jpg" alt="" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        M.Kd & Co. The Best <br> Quality Wines
+                    </h1>
+
+                    <a href="#favorite" class="button">Select Wines</a>
+                </div>
+
+                <footer class="home__footer">
+                    <div class="home__location">
+                        <i class='bx bx-map'></i>
+                        <span>Akwa. Crystal Palace <br> Rue Foche</span>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.whatsapp.com/" target="_blank">
+                            <i class='bx bxl-whatsapp' ></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="bx bxl-facebook-circle"></i>
+                        </a>
+
+                        <a href="https://www.github.com/" target="_blank">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <section class="new section" id="new">
+            <h2 class="section__title">Services</h2>
+
+            <div class="new__container container grid">
+                <div class="new__content grid">
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Ceremony events</h2>
+                            <p class="new__description">
+                                M.kd & Co wine shop assist you, in all your
+                                events at cheap prices.  
+                            </p>
+                        </div>
+
+                        <img src="components/assets/pexels-prem-singh-tanwar-602750.jpg" alt="" class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Delivery of wines</h2>
+                            <p class="new__description">
+                                M.kd & Co wine shop offers fast and rapid 
+                                delivery of wines.  
+                            </p>
+                        </div>
+
+                        <img src="components/assets/pexels-gustavo-borges-4063107.jpg"  alt="" class="new__img">
+                    </article>
+
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Wine literacy</h2>
+                            <p class="new__description">
+                                M.kd & Co wine shop educates their clients on
+                                some important wine rules.
+                            </p>
+                        </div>
+
+                        <img src="components/assets/main-verser-vin-rouge-se-bouchent.jpg " alt="" class="new__img">
+                    </article>
+                </div>
+
+                <a href="about us.php" class="new__button button">See more Services</a>
+            </div>
+        </section>
+
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">About us</h2>
+
+                    <p class="about__description">
+                        We have all types of quality wines that are made locally,
+                        We have an extensive line of quality prepared wines and 
+                        whisky products.
+                    </p>
+
+                    <a href="#" class="button">Know more</a>
+
+                    <img src="components/assets/icons8-wine-64.png" alt="" class="about__bread">
+                </div>
+
+                <img src="components/assets/pouring-red-wine-into-glass-with-long-stem-with-fire-background.jpg" alt="" class="about__img">
+            </div>
+        </section>
+  
+        <section class="favorite section" id="favorite">
+            <h2 class="section__title">Available Wines</h2>
+
+            <div class="favorite__container container grid">
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-champagne-100.png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Champaigns</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">7000FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-wine-64(1).png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">White Wines</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">4500FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-wine-64.png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Red wines</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">3500FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-wine-50.png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Vodka</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">6500FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-vodka-50.png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Whisky</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">6500FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="components/assets/icons8-beer-64.png" alt="" class="favorite__img">
+
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Beer</h2>
+                        <span class="favorite__subtitle">Wine</span>
+                        <h3 class="favorite__price">600FCFA</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <a href="#home">
+                            <i class='bx bxs-cart' style="color: rgb(209, 106, 95);"></i>
+                        </a>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="visit section" id="visit">
+            <div class="visit__container">
+                <img src="components/assets/7438321_32642.jpg" alt="" class="visit__bg">
+                <div class="visit__shadow"></div>
+
+                <div class="visit__content container grid">
+                    <div class="visit__data">
+                        <h2 class="section__title">Visit Us</h2>
+
+                        <p class="visit__description">
+                            Discover the best wines, we look forward
+                            to your visit.
+                        </p>
+
+                        <a href="#" class="button">See Location</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">Wines</a>
+                <p class="footer__description">
+                    We have the best quality <br> wines in Douala.
+                </p>
+            </div>
+
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">Rue Foche. #321 <br> Crystal Palace</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info">9:AM - 10:PM</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">M.kd & Co @gmail.com</address>
+                        </li>
+                        
+                        <li>
+                            <address class="footer__info">+237 6 58 12 34 00</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Follow Us</h3>
+
+                   <div class="footer__social">
+                    <a href="" target="_blank">
+                        <i class='bx bxl-whatsapp' ></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class="bx bxl-facebook-circle"></i>
+                    </a>
+
+                    <a href="" target="_blank">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                   </div>
+                </div>
+            </div>
+
+            <img src="components/assets/icons8-wine-64.png" alt="" class="footer__img-1">
+            <img src="components/assets/icons8-wine-64.png" alt="" class="footer__img-2">
+        </div>
+
+        <span class="footer__copy">
+            &#169; All Rights Reserved By Dongmo Otis. 
+        </span>
+    </footer>
+
+    <a href="" class="scrollup show-scroll" id="scroll-up">
+        <i class="bx bx-chevrons-up"></i>
+    </a>
+
+    <script src="js/man.js"></script>
+</body>
+</html>
